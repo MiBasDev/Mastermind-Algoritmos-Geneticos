@@ -38,8 +38,8 @@ def test_plotter():
     plotter = Plotter(history_scores)
     
     # Probar si el gráfico se guarda sin errores
-    plotter.plot(output_dir="./test_plots")
+    plotter.plot(output_dir="./test/test_plots")
     
     # Verificar si el archivo fue generado
-    assert os.path.exists("./test_plots/evolution_plot_all_scores_colored.png")
+    assert os.path.exists("./test/test_plots/evolution_plot_all_scores_colored.png")
 
