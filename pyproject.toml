@@ -1,20 +1,10 @@
-[tool.poetry]
-name = "mastermind-genetic-algorithm"
+[project]
+name = "Mastermind-Algoritmos-Geneticos"
 version = "1.0.0"
 description = "Algoritmo genético para resolver el juego Mastermind"
-authors = ["Miguel Bastos"]
-license = "MIT"
-readme = "README.md"
-homepage = "https://github.com/MiBasDev/Mastermind-Algoritmos-Geneticos.git"
-
-[tool.poetry.dependencies]
-python = ">=3.11"
-matplotlib = "^3.10.1"
-
-[tool.poetry.dev-dependencies]
-ruff = "^0.10.0"
-pytest = "^8.3.5"
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+authors = [
+    { name = "Miguel Bastos", email = "miguelbastosgandara11@gmail.com" }
+]
+dependencies = [
+    "matplotlib>=3.10.1"
+]
